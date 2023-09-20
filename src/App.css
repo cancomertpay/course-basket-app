@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.923);
+  color: whitesmoke;
+}
+
+.navDiv {
+  position: relative;
+}
+
+.itemsIcon {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.navDiv div p {
+  border: 1px solid white;
+  border-radius: 100%;
+  background-color: #fff;
+  color: black;
+  width: 20px;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+}
+
+.clearBtn {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: black;
+  color: whitesmoke;
+}
+.clearBtn:hover {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.flex {
+  display: flex;
+  margin: 50px 150px;
+  justify-content: space-between;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.cardQtyBtn {
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.cardQty {
+  margin-right: 8px;
+}
+
+.cardDeleteBtn {
+  margin-top: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: red;
+  color: whitesmoke;
+}
+
